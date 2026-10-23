@@ -117,13 +117,17 @@ img {
 }
 
 #flag {
-    height: 150px;
-    width: 150px;
+    height:auto;
+    width: auto;
     display: flex;
     border: solid 4px white;
     border-radius: 15px;
     box-shadow: 3px 3px 0px #354b78;
     left: 75%;
+    display: inline-block;
+    margin-top: 5px;
+    margin: 0 auto;
+    justify-content: baseline;
 }
 
 .info {
@@ -135,4 +139,52 @@ img {
     border-radius: 15px;
     box-shadow: 3px 3px 0px #354b78;
     margin: 0 auto;
+    display: inline-block;
+    justify-content: baseline;
 }
+
+/* Container holding the text and the flag together */
+.about-container {
+    display: flex;                  /* Forces elements onto the exact same row line */
+    align-items: center;            /* Vertically aligns text box and flag evenly */
+    justify-content: space-between; /* Pushes text box far left and flag far right */
+    
+    max-width: 650px;               /* Limits how wide they spread across the screen */
+    margin: 40px auto;              /* Perfectly centers the entire layout block on the page */
+    gap: 30px;                      /* Ensures a safe padding gap between them */
+    padding: 0 20px;                /* Adds safe side margins for narrower viewports */
+}
+
+/* Fix text positioning inside the info box */
+.info h3 {
+    text-align: left;               /* Makes text read cleanly left-to-right */
+    margin: 0;                      /* Strips out messy default text header styling */
+}
+
+/* Ensure the flag behaves well layout-wise */
+#flag {
+    margin: 0;                      /* Overrides the 'margin: 0 auto' from your global img style */
+}
+
+.about-containertwo{
+    display: flex;                  /* Forces elements onto the exact same row line */
+    align-items: center;            /* Vertically aligns text box and flag evenly */
+    justify-content: space-between; /* Pushes text box far left and flag far right */
+    
+    max-width: 650px;               /* Limits how wide they spread across the screen */
+    margin: 40px auto;              /* Perfectly centers the entire layout block on the page */
+    gap: 30px;                      /* Ensures a safe padding gap between them */
+    padding: 0 20px;                /* Adds safe side margins for narrower viewports */
+}
+
+/* Fix text positioning inside the info box */
+.info h3 {
+    text-align: left;               /* Makes text read cleanly left-to-right */
+    margin: 0;                      /* Strips out messy default text header styling */
+}
+
+/* Ensure the flag behaves well layout-wise */
+#flag {
+    margin: 0;                      /* Overrides the 'margin: 0 auto' from your global img style */
+}
+
