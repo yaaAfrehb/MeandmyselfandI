@@ -68,6 +68,10 @@ img {
     padding: 5px;
     border: 3px outset white;
     font-family: "Ceveat", monospace;
+    position: absolute;
+    left: 20px;
+    top: 500px;
+    z-index: 10;
 }
 .title {
     padding: 5px;
@@ -91,6 +95,7 @@ img {
     padding: 5px;
     border: 3px outset white;
     font-family: "Ceveat", monospace;
+    position: absolute;
 }
  
 #answerbutton {
@@ -109,4 +114,25 @@ img {
     margin: 0 auto;
     border-radius: 15px;
     font-family: "Indie Flower", cursive;
+}
+
+#flag {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    border: solid 4px white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 0px #354b78;
+    left: 75%;
+}
+
+.info {
+    background-color: white;
+    width: fit-content;
+    font-family: "Ceveat", monospace;
+    display: flex;
+    border: solid 4px white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 0px #354b78;
+    margin: 0 auto;
 }

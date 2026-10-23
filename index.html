@@ -34,7 +34,7 @@
 
     <!-- status box -->
     <div class ="status" id="statusbox">
-        <div class="title">
+        <div class="title" onmousedown="dragStart(event, 'statusbox')">
             My Status
             <button onclick="closeStatus()">x</button>
         </div>
@@ -42,11 +42,11 @@
     </div>
 
     <div class ="message" id="messagebox">
-        <div class="title">
+        <div class="title" onmousedown="dragStart(event,'messagebox')">
             Joke:
             <button onclick="closemessage()">x</button>
         </div>
-        <p>What does an American person do when they want to break up with a British person? 
+        <p>What does an American person do when they want to break up with a British person? </p>
         <button id="answerbutton">What?</button>
         <p id="answer" hidden>They declare independence! </p>
     </div>
