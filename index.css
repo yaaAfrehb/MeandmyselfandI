@@ -67,8 +67,7 @@ img {
     width: 200px;
     padding: 5px;
     border: 3px outset white;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: "Ceveat", monospace;
 }
 .title {
     padding: 5px;
@@ -84,4 +83,21 @@ img {
     color: black;
     font-weight: bold;
     cursor: pointer;
+}
+ 
+.message {
+    background: silver;
+    width: 200px;
+    padding: 5px;
+    border: 3px outset white;
+    font-family: "Ceveat", monospace;
+}
+ 
+#answerbutton {
+     padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: navy;
+    display: flex;
+    justify-content: center;
 }
