@@ -101,3 +101,12 @@ img {
     display: flex;
     justify-content: center;
 }
+
+.questioncard{
+    background-color: white;
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 15px;
+    font-family: "Indie Flower", cursive;
+}
